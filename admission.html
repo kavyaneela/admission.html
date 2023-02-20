@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COLLEGE ADMISSION FORM</title>
+        <style>
+            .cancel{
+                background-color: darksalmon;
+            }
+            .submit{
+                background-color: darksalmon;
+            }
+        </style>
+    </head>
+    <body bgcolor="beige">
+        <fieldset>
+        <u><h1 align="center">BHARATHIYAR UNIVERSITY ADMISSION FORM</h1></u>
+        <img src="images/bharathiyar.jpg" width="100px" height="100px">
+
+        <img src="images/bharathiyar.jpg" width="100px" height="100px" align="right">
+        <hr color="red">
+        <marquee scrollamount="15" bgcolor="azure"><img src="images/new.png" width="30" height="30"><strong>ADMISSION FORM</strong></marquee>
+        <hr color="red">
+
+        <h2 align="center">ADMISSION FORM</h2>
+        <fieldset>
+        <legend>Student Details</legend>    
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        First Name:
+                    </td>
+                    <td>
+                        <input type="text" class="name" placeholder="firstname">
+                    </td>
+
+                    <td>
+                        Last Name:
+                    </td>
+                    <td>
+                        <input type="text" class="name" placeholder="lastname">
+                    </td>
+                </tr>
+                
+
+                <tr>
+                    <td>
+                        Birth Date:
+                    </td>
+
+                    <td>
+                        <input type="datetime-local" class="DOB">
+                    </td>
+                </tr>
+            
+
+                <tr>
+                    <td>
+                        Gender:
+                    </td>
+
+                    <td>
+                        <input type="radio" name="gender" value="male">male
+                    </td>
+
+                    <td>
+                        <input type="radio" name="gender" value="female">female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Phone Number:
+                    </td>
+
+                    <td>
+                        <input type="number" class="phone" placeholder="(000) 000-0000">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        E-mail:
+                    </td>
+
+                    <td>
+                        <input type="email" class="mail" placeholder="eg.zzzzz@gmail.com">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Mailing Address:
+                    </td>
+
+                    <td>
+                        <input type="text" class="address"> 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        City:
+                    </td>
+
+                    <td>
+                        <input type="text" class="city">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        State:
+                    </td>
+
+                    <td>
+                        <input type="text" class="state">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Alternative Contact No:
+                    </td>
+
+                    <td>
+                        <input type="number" class="alternative" placeholder="(000) 000-0000">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Qualification </td><br/>
+                    <td>
+                        <table>
+                            <tr>
+                                <td align="center"><strong>Sl.No.</strong></td>
+                                <td align="center"><strong>Board</strong></td> 
+                                <td align="center"><strong>Percentage</strong></td>
+                                <td align="center"><strong>YrofPassing</strong></td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>X std</td>
+                                <td><input type="text" name="X std_percentage"></td>
+                                <td><input type="text" name="X std_yrofPassing"></td>
+                    
+                            </tr>
+
+                            
+                            <tr>
+                                <td>2</td>
+                                <td>XII std</td>
+                                <td><input type="text" name="XII std_percentage"></td>
+                                <td><input type="text" name="XII std_yrofPassing"></td>
+                    
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Course
+                    </td>
+                    <td>
+                        <select name="Course">
+                            <option value="B.Sc">B.Sc</option>
+                            <option value="M.Sc">M.Sc</option>
+                            <option value="B.Sc Computer Science">B.Sc Computer Technology</option>
+                            <option value="B.Sc Information Technology">B.Sc Information Technology</option>
+                            <option value="B.com">B.com</option>
+                            <option value="B.B.A">B.B.A</option>
+                            <option value="Bio-tech">Bio-tech</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        10<sup>th</sup>Certificate:
+                    </td>
+
+                    <td>
+                        <input type="file" name="file">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <hr width="100%" size="5px" color="red">
+            <h3>DECLARATION</h3>
+            <p>I do hereby declare that above details which i have filled are correct and to do the best of the knowledge</p>
+            <br>
+            <form>
+                <input type="checkbox" name=""  "required">I Agree
+                <hr width="100%" size="5px" color="red">
+                <center> <tr>
+                    <td>
+                        <input type="submit" class="cancel" value="cancel" style="height:30px; width=30%">
+                    </td>
+                    <td>
+                        <input type="submit" class="submit" value="submit" style="height:30px; width=30%">
+                    </td>
+                </tr></center>
+            </form>
+        </fieldset>
+        </fieldset>
+    </body>
+</html>
+
